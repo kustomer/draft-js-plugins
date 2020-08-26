@@ -30,7 +30,9 @@
     "lint:eslint:fix": "eslint --fix --rule 'mocha/no-exclusive-tests:2' ./",
     "lint:flow": "flow status",
     "lint:staged": "lint-staged",
-    "alex": "alex README.md"
+    "alex": "alex README.md",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "lint-staged": {
     "lint:eslint": "*.js"
@@ -90,7 +92,7 @@
     "sinon-chai": "^2.8.0",
     "style-loader": "^0.13.2",
     "superagent": "^3.5.0",
-    "webpack": "^2.2.1",
+    "webpack": "^4.0.0",
     "webpack-dev-middleware": "^1.10.1",
     "webpack-hot-middleware": "^2.17.1"
   },
@@ -114,6 +116,8 @@
     "tlds": "^1.183.0",
     "to-style": "^1.3.3",
     "union-class-names": "^1.0.0",
-    "webpack": "^2.2.1"
-  }
+    "webpack": "^4.0.0",
+    "snyk": "^1.385.0"
+  },
+  "snyk": true
 }
