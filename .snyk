@@ -1,0 +1,52 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - eslint-plugin-import > debug:
+        patched: '2020-08-26T12:41:17.320Z'
+    - eslint-plugin-import > eslint-import-resolver-node > debug:
+        patched: '2020-08-26T12:41:17.320Z'
+    - eslint-plugin-import > eslint-module-utils > debug:
+        patched: '2020-08-26T12:41:17.320Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2020-08-26T12:41:17.320Z'
+  'npm:extend:20180424':
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2020-08-26T12:41:17.320Z'
+  'npm:hoek:20180212':
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2020-08-26T12:41:17.320Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2020-08-26T12:41:17.320Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2020-08-26T12:41:17.320Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-08-26T12:41:17.320Z'
+  SNYK-JS-LODASH-567746:
+    - webpack > async > lodash:
+        patched: '2020-08-26T12:41:17.320Z'
+    - webpack > watchpack > async > lodash:
+        patched: '2020-08-26T12:41:17.320Z'
+  'npm:ms:20170412':
+    - eslint-plugin-import > debug > ms:
+        patched: '2020-08-26T12:41:17.320Z'
+    - eslint-plugin-import > eslint-import-resolver-node > debug > ms:
+        patched: '2020-08-26T12:41:17.320Z'
+    - eslint-plugin-import > eslint-module-utils > debug > ms:
+        patched: '2020-08-26T12:41:17.320Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2020-08-26T12:41:17.320Z'
+  'npm:qs:20170213':
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2020-08-26T12:41:17.320Z'
+  'npm:stringstream:20180511':
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2020-08-26T12:41:17.320Z'
+  'npm:tough-cookie:20170905':
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2020-08-26T12:41:17.320Z'
+  'npm:tunnel-agent:20170305':
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2020-08-26T12:41:17.320Z'
